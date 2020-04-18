@@ -14,8 +14,8 @@
 + 终结符： 最终在代码中出现的字符（ <https://zh.wikipedia.org/wiki/終結符與非終結符>）
 + 产生式： 在计算机中指 Tiger 编译器将源程序经过词法分析（Lexical Analysis）和语法分析（Syntax Analysis）后得到的一系列符合文法规则+（Backus-Naur Form，BNF）的语句
 + 静态和动态语言： <https://www.cnblogs.com/raind/p/8551791.html>
-+ 强类型： 有隐式转换
-+ 弱类型： 无隐式转换
++ 强类型：无隐式转换
++ 弱类型：有隐式转换
 + 协变与逆变： <https://jkchao.github.io/typescript-book-chinese/tips/covarianceAndContravariance.html>
 + Yacc 与 Lex 快速入门： <https://www.ibm.com/developerworks/cn/linux/sdk/lex/index.html>
 + 关于元编程： <https://www.zhihu.com/question/23856985>
