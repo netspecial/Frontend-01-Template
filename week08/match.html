@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <style>
+            div #match1.mcls1 {
+                width: 100px;
+                background-color: green;
+            }
+        </style>
+        <script src="match.js"></script>
+    </head>
+    <body>
+        <div>
+            <div id="match1" class="mcls1">TEST</div>
+            <div id="result"></div>
+        </div>
+    </body>
+    <script>
+        var matched = match("div div #match1.mcls1", document.getElementById("match1"));
+        var result = document.getElementById("result");
+        if (matched){
+            result.innerHTML = "MATCHED";
+        } else {
+            result.innerHTML = "UNMATCHED";
+        }
+    </script>
+</html>
